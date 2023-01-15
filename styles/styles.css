@@ -78,6 +78,26 @@ header{
     padding-bottom: 50px;
 
 }
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 90px;
+
+}
+.feature-img{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+}
+.feature-img img{
+    width: 90%;
+}
+.feature-title{
+    width: 40%;
+}
+
 
 
 
