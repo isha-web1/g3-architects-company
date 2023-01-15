@@ -18,6 +18,9 @@
     text-decoration: none;
     color: #2a1313;
 }
+header{
+    background-color: #ffead1;
+}
 .main-header{
     display: flex;
     justify-content: space-around;
@@ -31,6 +34,49 @@
 }
 .logo-text span{
     color: #FF900E;
+}
+.main-banner{
+    width: 50%;
+    margin: auto;
+    padding-top: 115px;
+    text-align: center;
+}
+.main-banner h2{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    line-height: 75px;
+}
+.main-banner p{
+    padding-top: 10px;
+    color: #727272;
+    line-height: 26px;
+}
+.banner-btn{
+ font-size: 20px;
+ font-weight: 700px;
+ padding: 20px 25px;
+ background-color: #FF900E;
+ color: #FFFFFF;
+ margin-top: 30px;
+ border: none;
+ border-radius: 7px;
+ cursor: pointer;
+ transition: 0.05s all ease-in-out;
+}
+.banner-btn:hover{
+    background-color: transparent;
+    border: 1px solid salmon;
+    color: purple;
+}
+.banner-img{
+    margin-top: 50px;
+    text-align: center;
+}
+.banner-img img{
+    width: 80%;
+    padding-bottom: 50px;
+
 }
 
 
