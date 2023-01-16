@@ -157,6 +157,66 @@ header{
 
 }
 
+.fact{
+    margin-top: 125px;
+}
+.fact-title{
+  margin: auto;
+  width: 258px;
+}
+.fact-title h2{
+    font-weight: 700px;
+    font-size: 45px;
+
+}
+.fact-title p{
+    width: 542px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    color: #727272;
+
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+}
+.card-img{
+    text-align: center;
+    padding: 45px 35px;
+    margin-left: 125px;
+    border: 2px solid salmon;
+    border-radius: 7px;
+    transition: 0.04s all ease-in-out;
+}
+.card-img:hover{
+    background-color:goldenrod;
+    color: black;
+}
+.card-img h2{
+    font-weight: 600px;
+    font-size: 45px;
+    line-height: 50px;
+
+}
+.card-img p{
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #727272;
+}
+.icon{
+    width: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.icon i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
