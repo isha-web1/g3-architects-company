@@ -213,6 +213,25 @@ header{
     margin-left: 5px;
     cursor: pointer;
 }
+.sponsor{
+    text-align: center;
+    padding-top: 130px;
+}
+.sponsor h2{
+    font-weight: 700px;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.sponsor p{
+    width: 542px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
