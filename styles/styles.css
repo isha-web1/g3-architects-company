@@ -248,6 +248,166 @@ header{
     background-color: #ffead1;
 }
 
+/* responsive media quari started */
+
+@media  screen and (max-width: 576px){
+    .main-header{
+        align-items: stretch;
+        padding-top: 15px;
+    }
+    .logo-text h1{
+        font-size: 20px;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        font-weight: 600px;
+        line-height: 25px;
+
+    }
+    .navbar ul{
+        text-align: start;
+        flex-direction: column;
+    }
+    .banner-btn{
+        margin: 15px 0px;
+        padding: 10px 15px;
+    }
+    .banner-img img{
+        width: 90%;
+        padding-bottom: 15px;
+    }
+    .main-banner{
+        width: 90%;
+        padding-top: 30px;
+    }
+    .main-banner h2{
+        font-weight: 600px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .feature{
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+    .feature-img{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .feature-img img{
+        width: 250%;
+    }
+    .feature-title{
+        width: 90%;
+    }
+    .left-section h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600px;
+        line-height: 25px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+
+    }
+    .left-section p{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+
+    }
+    .left-section h2{
+        font-weight: 700px;
+        font-size: 20px;
+        width: 100%;
+        border: none;
+
+    }
+    .left-section p{
+        width: 90%;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: auto;
+    }
+    .enjoy-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 12px;
+    }
+    .enjoy-section{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .box{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    .right-section{
+        width: 100%;
+
+    }
+    .card-section{
+        margin: 5px 0px;
+
+    }
+    .card-img{
+        flex-direction: column;
+        width: 100%;
+    }
+    .fact-title{
+        width: 80%;
+    }
+    .fact-title h2{
+        font-size: 26px;
+    }
+    .fact-title p{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+    }
+    .sponsor{
+        padding-top: 15px;
+    }
+    .sponsor h2{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .sponsor p{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .sponsor-img{
+        margin-bottom: 25px;
+    }
+    .footer{
+        width: 100%;
+
+    }
+    .footer-title{
+        margin-top: 20px;
+        padding: 20px 
+    }
+
+};
+    
+
+
+
+
 
 
 
